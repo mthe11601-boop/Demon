@@ -1,7 +1,5 @@
-def is_palindrome(text):
-    return text == text[::-1]
-
-# Example usage
-print(is_palindrome("racecar"))  # Output: True
-print(is_palindrome("hello"))   # Output: False
-print(is_palindrome("madam"))   # Output: True
+text = input("Enter a word or number: ")
+if text == text[::-1]:
+    print(f"'{text}' is a palindrome")
+else:
+    print(f"'{text}' is not a palindrome")
